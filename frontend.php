@@ -1,6 +1,12 @@
 <html>
  <head>
-  <title>PHP-Test</title>
+  <title>bitmessage-bouncer</title>
+  <style type="text/css">
+    #footer {
+    position:fixed;
+    bottom:0px;
+}
+</style>
  </head>
  <body>
 <?php
@@ -41,5 +47,6 @@
 	mysql_close($link);
 	//echo "<p>msgid:".$msgid."</p>";
 ?>
+<p id="footer">funktion :: anderes projekt :: anderes projekt :: etc <br>donationsadresse</p>
  </body>
 </html>
